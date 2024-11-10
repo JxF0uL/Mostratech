@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Ocorrência"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/txtOcorrido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="O que ocorreu?"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Local"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data (dd/MM/yyyy)"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (HH:mm)"
+        android:textSize="25sp" />
+
+    <Button
+ android:id="@+id/btRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Registrar" />
+</LinearLayout>
